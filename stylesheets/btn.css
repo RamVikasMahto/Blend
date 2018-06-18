@@ -1,0 +1,95 @@
+.btn-default { border: 0; min-width: 135px; line-height: 22px; color: #fff; font-weight: 600; font-size: 14px; display:inline-block;	 	 -webkit-transition: all 0.1s;	-moz-transition: all 0.1s;	transition: all 0.1s;		-webkit-box-shadow: 0px 2px 1px #cc9900; -moz-box-shadow: 0px 2px 1px #cc9900; box-shadow: 0px 2px 1px #cc9900; background: #ffcf29; /* Old browsers */background: -moz-linear-gradient(top, #ffcf29 1%, #fac300 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #ffcf29 1%,#fac300 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #ffcf29 1%,#fac300 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcf29', endColorstr='#fac300',GradientType=0 ); /* IE6-9 */ }
+ .btn-default:active	 { color: #272727; border: 0; -webkit-box-shadow: 0px 2px 1px #caae5d; -moz-box-shadow: 0px 2px 1px #caae5d; box-shadow: 0px 2px 1px #caae5d; margin-top: 5px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fac301+0,ffcf29+100 */
+background: #fac301; /* Old browsers */
+background: -moz-linear-gradient(top, #fac301 0%, #ffcf29 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fac301 0%,#ffcf29 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fac301 0%,#ffcf29 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac301', endColorstr='#ffcf29',GradientType=0 ); /* IE6-9 */
+ }
+
+		.attentionBox .deal { font-size: 23px; display: inline-block; width: 240px; margin: 70px 0 70px; line-height: 42px; color: #fff; 	 -webkit-transition: all 0.1s;	-moz-transition: all 0.1s;	transition: all 0.1s;		-webkit-box-shadow: 0px 2px 1px #cc9900; -moz-box-shadow: 0px 2px 1px #cc9900; box-shadow: 0px 2px 1px #cc9900; background: #ffcf29; /* Old browsers */background: -moz-linear-gradient(top, #ffcf29 1%, #fac300 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #ffcf29 1%,#fac300 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #ffcf29 1%,#fac300 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcf29', endColorstr='#fac300',GradientType=0 ); /* IE6-9 */ }
+
+
+		.dealerdetailBox .btn { box-shadow: 0 2px 1px #726459; border-color: #8a7768; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#baa693+0,9f8875+100 */
+background: #baa693; /* Old browsers */background: -moz-linear-gradient(top, #baa693 0%, #9f8875 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #baa693 0%,#9f8875 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #baa693 0%,#9f8875 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baa693', endColorstr='#9f8875',GradientType=0 ); /* IE6-9 */
+ }
+
+
+@-webkit-keyframes headerFlow {
+0% {
+background-position:0 center
+}
+100% {
+background-position:-1920px center
+}
+}
+@-moz-keyframes headerFlow {
+0% {
+background-position:0 center
+}
+100% {
+background-position:-1920px center
+}
+}
+@-ms-keyframes headerFlow {
+0% {
+background-position:0 center
+}
+100% {
+background-position:-1920px center
+}
+}
+@keyframes headerFlow {
+0% {
+background-position:0 center
+}
+100% {
+background-position:-1920px center
+}
+}
+.checkbox-custom, .radio-custom {
+ opacity: 0;
+ position: absolute; 
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+ display: inline-block;
+ vertical-align: middle;
+ cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+ position: relative; font-style: italic;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+ content: '';
+ background: #fff;
+ border: 1px solid #ddd;
+	margin-right: 15px;
+ display: inline-block;
+ vertical-align: middle;
+ width: 30px;
+ height: 30px;
+ padding: 0;
+	border-radius: 8px;
+	background: url(../images/check_radio.jpg) left top no-repeat;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+	background: url(../images/check_radio.jpg) -30px top no-repeat;
+}
+
+.radio-custom + .radio-custom-label:before {
+ border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+ content: "\f00c";
+ font-family: 'FontAwesome';
+ color: #bbb;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+}

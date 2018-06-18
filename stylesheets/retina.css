@@ -1,0 +1,14 @@
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	.linkBox li.website a span { background-image: url(../images/icon1@2x.png); background-size: 15px; }
+	.inspirationBox { background: url(../images/bg-img@2x.png) center no-repeat; background-size: cover;   }
+	#wrapper.contact, { background: url(../images/contact-bg@2x.jpg) center top no-repeat; background-size: cover;   }
+	.contactBox	{ background: url(../images/contact-helpen@2x.png) center bottom  no-repeat; background-size: cover;  }
+	#bannerCntr.product { height: 680px; background: url(../images/banner-product@2x.jpg) center no-repeat;}		
+	.diduBox { background: url(../images/didu@2x.jpg) center no-repeat; background-size: cover;  }
+	.InspBox { background: url(../images/Inspirationtag@2x.jpg) center no-repeat; background-size: cover;   }
+	.priceBox { background: url(../images/home-contct@2x.jpg) center no-repeat; background-size: cover;  }
+	#bannerCntr.blog { background: url(../images/blog-bg@2x.jpg) center no-repeat; background-size: cover; } 		
+	.socialBox { background: url(../images/social-bg@2x.jpg) center; }
+	#wrapper.getaQuote { background: url(../images/getAQuote@2x.jpg) center no-repeat; background-size: cover;   }
+	#bannerCntr.passie { background: url(../images/paise-bg@2x.jpg) center  scroll repeat-x;}
+}
